@@ -25,4 +25,9 @@ public class Users {
     public Users(String name) {
         this.name = name;
     }
+
+    public Users(String name, String interest) {
+        this.name = name;
+        this.interest = interest;
+    }
 }
